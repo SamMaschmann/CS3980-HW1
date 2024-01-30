@@ -9,13 +9,16 @@ and the last three characters are 'echoed' back, followed by the last two, and f
 After the string has 'echoed' a '.' is printed to signify the end of the echo.
 
 The number of characters repeated in the echo can be changed by changing the 'repetitions' int in the echo function.
+
 ![Output for echo.py](pywebhw1_echoOut.JPG)
 
 ## fib.py
 ![Code for fib.py](pywebhw1_fibCode.JPG)
+
 Fib.py gives the first 100 numbers in the Fibonacci sequence by recursively calculating them. 
 A LRU cache from functools is used to optimize runtime. A timer decorator is implemented to calculate the runtime 
 for the calculation of each Fibonacci number. 
+
 ![Output for fib.py](pywebhw1_fibOutp1.JPG)
 ![Output for fib.py](pywebhw1_fibOutp2.JPG)
 
